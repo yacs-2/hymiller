@@ -1,4 +1,16 @@
 body{
-  background-color:#bee8e3;
+  background-color:#b3f2ed;
   color:black;
+  align-text:left;
+  font-family:'Atkinson Hyperlegible Next';
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.heading{
+  font-family:'Anton SC Static',cursive;
+  text-align:center;
+  font-size:300%;
+  color:black;
+  text-shadow:#ffffff 5px 2px
 }
