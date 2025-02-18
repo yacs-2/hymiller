@@ -14,3 +14,33 @@ body{
   color:black;
   text-shadow:#ffffff 5px 2px
 }
+h2.heading {
+  font-size:200%
+}
+.bordered{
+  border-style:solid;
+  border-color:black;
+  border-width:3px;
+  padding:5px;
+  border-radius:20px;
+  margin:10px;
+  background-color:teal;
+  color:#
+}
+a{
+  text-decoration:none;
+  font-weight:bold;
+  color:blue;  
+}
+a:hover, a:visited{
+  color:lightblue
+}
+hr{
+  height:3px;
+  border:0px;
+  backgroung-color:lightblue
+}
+#footer{
+  font-size:120%;
+  text-align:center;
+}
