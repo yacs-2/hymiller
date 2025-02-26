@@ -5,6 +5,7 @@ body{
   font-family:'Atkinson Hyperlegible Next';
   margin-left:10%;
   margin-right:10%;
+  
 }
 
 .heading{
@@ -15,7 +16,7 @@ body{
   text-shadow:#ffffff 5px 2px
 }
 h2.heading {
-  font-size:200%
+  font-size:200%;
 }
 .bordered{
   border-style:solid;
@@ -43,4 +44,10 @@ hr{
 #footer{
   font-size:120%;
   text-align:center;
+}
+h2,li{
+  text-align:center
+}
+li p{
+  text-align:left
 }
