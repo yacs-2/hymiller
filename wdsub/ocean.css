@@ -90,8 +90,6 @@ a{
   #header a:hover{
   background-color:grey
 }
-}
-#footer-float{
-  display:inline;
-  float:right
+#header a:hover{
+  background-color:grey
 }
