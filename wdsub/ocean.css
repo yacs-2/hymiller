@@ -55,6 +55,8 @@ hr{
 }
 img{
   float:right;
+  border-color:black;
+  border-width:2px;
 }
 h2{
   text-align:center;
