@@ -1,1 +1,29 @@
-
+body{
+  margin:0px
+}
+#background-video{
+  width:100vw;
+  height:100vh;
+  positon:fixed;
+  top:0px;
+  left:0px;
+  opacity:0.5;
+}
+#content{
+  position:absolute;
+  top:10%;
+  bottom:10%;
+  left:10%;
+  right:10%;
+  padding:50px;
+  background-color:rgba(120, 120, 250, 0.7);
+  border-radius:20px;
+  text-align:center;
+}
+.cool{
+  font-family:cursive;
+  
+}
+#background-aud{
+  display:noe;
+}
