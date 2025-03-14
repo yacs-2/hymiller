@@ -1,29 +1,28 @@
 body{
-  margin:0px
+  margin:0px;
 }
-#background-video{
-  width:100vw;
-  height:100vh;
-  positon:fixed;
-  top:0px;
-  left:0px;
-  opacity:0.5;
+#content, #album, #info{
+  float:left;
 }
 #content{
-  position:absolute;
-  top:10%;
-  bottom:10%;
-  left:10%;
-  right:10%;
-  padding:50px;
-  background-color:rgba(120, 120, 250, 0.7);
-  border-radius:20px;
-  text-align:center;
+  border:solid 2px red;
+  width:50%
 }
-.cool{
-  font-family:cursive;
-  
+#album{
+  border:solid 2px blue;
+  width:30%
 }
-#background-aud{
-  display:noe;
+#info{
+  border:solid 2px green;
+  mav-width:19%
+}
+
+#player audio::-wekit-media-controls-play-button{
+  display:none
+}
+#player audio{
+  height:1em;
+}
+#player button{
+  float:left;
 }
