@@ -1,19 +1,20 @@
 body{
   margin:0px;
+  background-color:#ADD8E6
 }
 #content, #album, #info{
   float:left;
 }
 #content{
-  border:solid 2px red;
+  padding:1%;
   width:50%
 }
 #album{
-  border:solid 2px blue;
+  border:;
   width:30%
 }
 #info{
-  border:solid 2px green;
+  border:;
   mav-width:19%
 }
 
@@ -27,15 +28,28 @@ body{
   float:left;
 }
 #banner{
-  height:15%
+  height:300px;
+  width:100%;
 }
 ul{
-  font-size:200%;
-  list-style-type:none;
+  
 }
-audio{
-  background-color:rgba(255,255,255,1)
+audio::-webkit-media-controls-panel{
+  background-color:#ADD8E6
 }
-img{
-  width:100%
+#info img{
+  width:80%; 
+  padding:5%;
+}
+#info{
+  width:18%;
+  
+}
+#album img{
+  width:80%;
+  padding:5%;
+}
+#info p , #info h3 , #info a{
+  width:70%;
+  padding:5%;
 }
