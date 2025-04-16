@@ -1,0 +1,38 @@
+
+<div>
+  <label for="new-item">New Item:</label>
+  <input id="new-item">
+  <br>
+  <button onclick="addNewItem()">Add item</button>
+</div>
+
+<div>
+<ul id="to-do-list">
+
+</ul>
+</div>
+
+
+
+
+
+function addNewItem(){
+  let newItem;
+  let myList;
+  let newItemText;
+  let input;
+
+  newItem = document.createElement("li");
+  
+  
+  
+  //getting text from input field
+  input = document.getElementById("new-item"); 
+  newItemText =input.value;
+  newItem.innerText = newItemText;
+  input.value = "";
+  
+  myList = document.getElementById("to-do-list");
+
+  myList.appendChild(newItem);
+}
