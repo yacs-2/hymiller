@@ -16,6 +16,8 @@
 
 
 
+
+
 function addNewItem(){
   let newItem;
   let myList;
@@ -36,3 +38,12 @@ function addNewItem(){
 
   myList.appendChild(newItem);
 }
+
+function clearList() {
+  let theList = document.getElementById("to-do-list");
+  theList.innerHTML = "";
+}
+
+window.addEventListener("keydown", (_key) => {
+  if (_key.code == "Enter") addNewItem();
+});
