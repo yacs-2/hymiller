@@ -1,0 +1,32 @@
+body{
+  margin:0;
+  background-color:grey;
+}
+#bigdiv{
+  background-color:lightgrey;
+  padding:15%;
+  border-radius:5%;
+  margin:15%;
+}
+#to-do-list{
+  list-style-type:none;
+}
+img{
+  width:100vw;
+  max-height:35%;
+  position:absolute;
+  top:0px;
+}
+h1{
+  text-align:center;
+}
+li{
+  font-family:cursive;
+}
+#add{
+  background-color:lightgreen;
+  
+}
+#clear{
+  background-color:pink
+}
