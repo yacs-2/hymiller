@@ -1,5 +1,5 @@
 body{
-  background-color:#b3f2ed;
+  background-color:lightblue;
   color:black;
   align-text:left;
   font-family:'Atkinson Hyperlegible Next';
@@ -61,4 +61,20 @@ li p{
 }
 .footer{
   text-align:center;
+}
+#nav-list{
+  list-style-type:none;
+  display:inline-block;
+  
+}
+#nav-list > li{
+  display:inline-block;
+  text-align:center;
+  width:;
+}
+#nav-list ul {
+  display:none;
+}
+#nav-list li:hover ul{
+  display:block;
 }
