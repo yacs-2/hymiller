@@ -64,11 +64,17 @@ li p{
 }
 #nav-list{
   list-style-type:none;
-  display:inline-block;
+  justify-content:center;
+  text-align:center;
+  display:flex;
+  background-color:teal;
+  padding:2%;
+  
   
 }
 #nav-list > li{
-  display:inline-block;
+  flex-grow:1;
+  display:block;
   text-align:center;
   width:;
 }
@@ -77,4 +83,13 @@ li p{
 }
 #nav-list li:hover ul{
   display:block;
+  background-color:darkblue;
+}
+#nav-list li ul{
+  list-style-type:none;
+  padding:2%;
+  position:absolut
+}
+#nav-list li:hover{
+  background-color:lightblue;
 }
