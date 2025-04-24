@@ -65,7 +65,7 @@ li p{
 #nav-list{
   list-style-type:none;
   justify-content:center;
-  text-align:center;
+  align-content:center;
   display:flex;
   background-color:teal;
   padding:2%;
@@ -76,20 +76,29 @@ li p{
   flex-grow:1;
   display:block;
   text-align:center;
-  width:;
+  postion:relative;
+}
+#nav-list li a{
+  display:inline-block;
+  width:100%;
 }
 #nav-list ul {
   display:none;
 }
 #nav-list li:hover ul{
   display:block;
-  background-color:darkblue;
+  background-color:grey;
 }
 #nav-list li ul{
   list-style-type:none;
   padding:2%;
-  position:absolut
+  position:absolute;
+  width:99%;
 }
 #nav-list li:hover{
   background-color:lightblue;
+  color:green;
+}
+#nav-list li{
+  position:relative;
 }
