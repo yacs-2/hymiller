@@ -6,4 +6,4 @@ const = INJECT = '  <div id="global-preheader"><div class="bordered"><marquee><h
 
 let _div = ducument.geeetElementById("gheader");
 
-_div.innerHTML = INJECTION;
+_div.innerHTML = INJECT;
