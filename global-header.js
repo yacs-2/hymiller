@@ -1,3 +1,4 @@
+debugger
 /**this script will inject the global header into the #gheader div of each page**/
 
 
