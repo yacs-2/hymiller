@@ -39,3 +39,107 @@
   max-height: 75vh;
 }
 
+body{
+  background-color:lightblue;
+  color:black;
+  align-text:left;
+  font-family:'Atkinson Hyperlegible Next';
+  margin-left:10%;
+  margin-right:10%;
+  
+}
+
+.heading{
+  font-family:'Anton SC Static',cursive;
+  text-align:center;
+  font-size:300%;
+  color:black;
+  text-shadow:#ffffff 5px 2px
+}
+h2.heading {
+  font-size:200%;
+}
+.bordered{
+  border-style:solid;
+  border-color:black;
+  border-width:3px;
+  padding:5px;
+  border-radius:20px;
+  margin:10px;
+  background-color:rgba(0,128,128,0.5);
+  color:#;
+}
+a{
+  text-decoration:none;
+  font-weight:bold;
+  color:blue;  
+}
+a:hover, a:visited{
+  color:turquiose
+}
+hr{
+  height:3px;
+  border:0px;
+  backgroung-color:lightblue
+}
+#footer{
+  font-size:120%;
+  text-align:center;
+}
+h2,li{
+  text-align:center
+}
+li p{
+  text-align:left
+}
+#bg{
+  width:150vw;
+  /*height:100vh;*/
+  z-index:-999;
+  position:fixed;
+  top:0px;
+  left:0px;
+}
+.footer{
+  text-align:center;
+}
+#nav-list{
+  list-style-type:none;
+  justify-content:center;
+  align-content:center;
+  display:flex;
+  background-color:teal;
+  padding:2%;
+  
+  
+}
+#nav-list > li{
+  flex-grow:1;
+  display:block;
+  text-align:center;
+  postion:relative;
+}
+#nav-list li a{
+  display:inline-block;
+  width:100%;
+}
+#nav-list ul {
+  display:none;
+}
+#nav-list li:hover ul{
+  display:block;
+  background-color:grey;
+}
+#nav-list li ul{
+  list-style-type:none;
+  padding:2%;
+  position:absolute;
+  width:99%;
+}
+#nav-list li:hover{
+  background-color:lightblue;
+  color:green;
+}
+#nav-list li{
+  position:relative;
+}
