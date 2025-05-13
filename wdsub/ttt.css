@@ -1,0 +1,15 @@
+body{
+  padding:0px;
+  margin:0px;
+}
+.square{
+  float:left;
+  border:solid black 3px;
+  width:32vw;
+  height:32vh;
+  font-size:500%;
+  text-align:center;
+}
+#winner{
+  display:none;
+}
