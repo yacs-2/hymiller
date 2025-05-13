@@ -1,15 +1,40 @@
 body{
-  padding:0px;
-  margin:0px;
+  margin:0;
+  padding:0;
+  
 }
 .square{
   float:left;
   border:solid black 3px;
-  width:32vw;
-  height:32vh;
+  width:30vw;
   font-size:500%;
   text-align:center;
+  padding-top:5%;
+  padding-bottom:4%;
+  
 }
 #winner{
   display:none;
+  position:fixed;
+  top:0px;
+  left 0px;
+  right:0px;
+  bottom:0px;
+  text-align:center;
+  background-color:black;
+  padding:4em;
+  color:white;
+  font-size:xx-large;
+  padding:3em;
+}
+#winner div{
+  
+  top:15%;
+  left 25%;
+  right:25%;
+  text-align:center;
+  background-color:black;
+  color:white;
+  font-size:xx-large;
+  padding:3em;
 }
