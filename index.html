@@ -7,7 +7,9 @@
   <body>
 <div id="gheader"></div>
 <script src="/hymiller/global-header.js"></script>
+    
 <span id="userspan"></span>
+    
     <div class="bordered">
     <h2 style="text-align:center">Weekly webpage submissions</h2>
     <ul>
@@ -81,9 +83,9 @@
       let urlParams = URLSearchParams(window.location.search);
       if(urlParams.has("variable1")) {
         let username = urlParams.get("variable1");
-        windows.alert(username);
+        window.alert(username);
         let userspan = document.getElementById("userspan");
-        userspan.innerText = ", " + username + ", "
+        userspan.innerHTML = <h1>", " + username + ", "</h1>
       }
     </script>
   </body>
