@@ -7,7 +7,7 @@
   <body>
 <div id="gheader"></div>
 <script src="/hymiller/global-header.js"></script>
-
+<span id="userspan"></span>
     <div class="bordered">
     <h2 style="text-align:center">Weekly webpage submissions</h2>
     <ul>
@@ -77,5 +77,20 @@
     <div class="bordered">
     <p class="footer">click <a target="_blank"  href="mailto:nathanael.stamp@youngsvilleacademy.org?subject=Live%20Code%20Session%3AKipton%20Hymiller&cc=kip.hymiller@gmail.com&body=Hello%20this%20is%20my%20live%20coding%20session%20Mr.%20Stamp%3A%20">here</a> to submit a live code session</p>
     </div>
+    <script>
+      let urlParams = URLSearchParams(window.location.search);
+      if(urlParams.has("variable1")) {
+        let username = urlParams.get("variable1");
+        windows.alert(username);
+        let userspan = document.getElementById("userspan");
+        userspan.innerText = ", " + username + ", "
+      }
+    </script>
   </body>
 </html>
+
+
+
+
+
+
